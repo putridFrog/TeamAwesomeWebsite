@@ -104,6 +104,39 @@ button {
     cursor: pointer;
 }
 
+/* Expandable bio two-column layout */
+.bio-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 25px;
+    padding: 20px;
+    align-items: start;
+}
+
+/* About Me Section */
+.bio-about {
+    background-color: #f5f0fa;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Moodboard Section */
+.bio-moodboard {
+    background-color: #f5f0fa;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Moodboard Image */
+.moodboard-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
 button:hover {
     background: #0056b3;
 }
