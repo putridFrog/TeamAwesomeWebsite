@@ -74,6 +74,10 @@ header nav button:hover {
     background: green;
 }
 
+#amelia {
+    background: purple;
+}
+
 h2 {
     margin: 0 0 10px;
 }
