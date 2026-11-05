@@ -20,6 +20,12 @@ header {
     margin-top: 10px;
 }
 
+.mood-board{
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1;
+    float: left;
+}
 /* Menu button styling */
 header nav {
     margin-top: 10px;
@@ -62,6 +68,10 @@ header nav button:hover {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+#kolby {
+    background: green;
 }
 
 h2 {
